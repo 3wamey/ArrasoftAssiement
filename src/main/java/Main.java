@@ -4,19 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Create a scanner object for input
         Scanner scanner = new Scanner(System.in);
 
-        // Input: two numbers A and B
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
+        // Define the value of Pi
+        double PI = 3.141592653;
 
-        // Calculate the division result
-        double result = (double) A / B;
+        // Input the radius
+        double R = scanner.nextDouble();
 
-        // Calculate and print floor, ceil, and round with the required format
-        System.out.println("floor " + A + " / " + B + " = " + (int) Math.floor(result));
-        System.out.println("ceil " + A + " / " + B + " = " + (int) Math.ceil(result));
-        System.out.println("round " + A + " / " + B + " = " + Math.round(result));
+        // Calculate the area of the circle
+        double area = PI * R * R;
+
+        // Print the result with 9 digits after the decimal point
+        System.out.printf("%.9f\n", area);
 
     }
         }
