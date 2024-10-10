@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-                Scanner scanner = new Scanner(System.in);
+
+                       Scanner scanner = new Scanner(System.in);
 
                 // Declare variables
                 long A, B, C;
@@ -45,7 +46,6 @@ public class Main {
                 scanner.close();
             }
         }
-
 
 
 
