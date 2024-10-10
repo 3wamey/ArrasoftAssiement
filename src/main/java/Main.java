@@ -17,7 +17,8 @@ public class Main {
         System.out.println("floor " + A + " / " + B + " = " + (int) Math.floor(result));
         System.out.println("ceil " + A + " / " + B + " = " + (int) Math.ceil(result));
         System.out.println("round " + A + " / " + B + " = " + Math.round(result));
-            }
+
+    }
         }
 
 
