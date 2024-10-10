@@ -20,6 +20,7 @@ public class Main {
         System.out.println(X + " * " + Y + " = " + mult);
         System.out.println(X + " - " + Y + " = " + sub);
 
+
     }
         }
 
