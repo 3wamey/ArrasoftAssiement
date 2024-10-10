@@ -4,20 +4,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Create a scanner object for input
         Scanner scanner = new Scanner(System.in);
 
-        // Define the value of Pi
-        double PI = 3.141592653;
+        // Input two numbers X and Y
+        long X = scanner.nextLong();
+        long Y = scanner.nextLong();
 
-        // Input the radius
-        double R = scanner.nextDouble();
+        // Calculate sum, multiplication, and subtraction
+        long sum = X + Y;
+        long mult = X * Y;
+        long sub = X - Y;
 
-        // Calculate the area of the circle
-        double area = PI * R * R;
-
-        // Print the result with 9 digits after the decimal point
-        System.out.printf("%.9f\n", area);
+        // Print the results in the desired format
+        System.out.println(X + " + " + Y + " = " + sum);
+        System.out.println(X + " * " + Y + " = " + mult);
+        System.out.println(X + " - " + Y + " = " + sub);
 
     }
         }
